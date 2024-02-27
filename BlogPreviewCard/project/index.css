@@ -1,0 +1,108 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url("./fonts/Figtree.ttf");
+}
+
+body {
+    background-color: var(--yellow);
+    font-family: "Figtree", sans-serif;
+    min-height: 100vh;
+}
+
+body, .articleIllustration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 383px;
+    height: 520px;
+    padding: 1.5em;
+    background-color: var(--white);
+    box-shadow: 10px 8px;
+    border-radius: 18px;
+    border: 2px solid var(--black);
+}
+
+.articleImage {
+    border-radius: 1em;
+    margin-bottom: 1em;
+    width: 24em;
+}
+
+.articleCategory {
+    font-weight: 800;
+    background-color: var(--yellow);
+    width: 4.1em;
+    height: 1.2em;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+.articleDate {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.articleTitle {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.articleTitle:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.articleDescription {
+    font-size: 17px;
+    color: var(--grey);
+    padding: 10px;
+    margin-left: -10px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.avatarLabel {
+    display: flex;
+    align-items: center;
+} 
+
+.avatarImage {
+    width: 1.9em;
+}
+
+.avatarAuthor {
+    font-size: 14px;
+    margin-left: 0.5em;
+    font-weight: 800;
+}
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 1em;
+}
+
+.attribution a { 
+    color: var(--black); 
+    text-decoration: none;
+}
+
+.attribution a:hover { 
+    color: var(--white);
+    text-decoration: underline;
+}
