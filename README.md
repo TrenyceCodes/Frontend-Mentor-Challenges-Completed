@@ -10,7 +10,7 @@ This is a solution to the all my Frontend Mentor Challenges
 ## Links
 | Project Name      | Project Link |
 | ----------- | ----------- |
-| Blog Preview Card      | [Blog Preview Card]()       |
+| Blog Preview Card      | [Blog Preview Card](https://frontend-mentor-challenges-completed.vercel.app/)       |
 
 ## Author
 
