@@ -21,13 +21,12 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-
-![](./screenshot.jpg)
+![Screenshot 2024-02-27 at 12 55 50 AM](https://github.com/TrenyceCodes/Frontend-Mentor-Challenges-Completed/assets/52137719/9e73cce2-b007-4953-aec3-9e9c0e9f3271)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/blogpreviewcard-1zw3lhDJ5E)
+- Live Site URL: [Live Site URL](https://frontend-mentor-challenges-completed.vercel.app/)
 
 ## My process
 
